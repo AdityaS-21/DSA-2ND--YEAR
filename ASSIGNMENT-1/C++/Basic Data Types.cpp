@@ -1,20 +1,16 @@
 #include <iostream>
 #include <cstdio>
+#include <iomanip>
 using namespace std;
 
 int main() {
     // Complete the code.
-    int num;
-    cin>>num;
-    long l;
-    cin>>l;
-    char character;
-    cin>>character;
-    float decimal;
-    cin>>decimal;
-    double d;
-    cin>>d;
-    cout<<num<<endl<<l<<endl<<character<<endl<<decimal<<endl<<d<<endl;
-    
+    int a;
+    long  b;
+    char c;
+    float d;
+    double e;
+    cin>>a>>b>>c>>d>>e;
+    cout<<a<<endl<<b<<endl<<c<<endl<<fixed<<setprecision(3)<<d<<endl<<setprecision(9)<<e<<endl;
     return 0;
 }
